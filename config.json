@@ -1,13 +1,15 @@
 {
-  "AWS_ACCOUNT_ID": "123412341234",
+  "CLI_PROFILE": "default",
+  "AWS_ACCOUNT_ID": "893183470163",
   "REGION": "eu-west-1",
-  "BUCKET": "bucket",
+  "BUCKET": "nagyistge-authtest",
   "MAX_AGE": "10",
   "DDB_TABLE": "LambdAuthUsers",
   "IDENTITY_POOL_NAME": "LambdAuth",
-  "DEVELOPER_PROVIDER_NAME": "login.mycompany.myapp",
-  "EXTERNAL_NAME": "My Authentication",
+  "DEVELOPER_PROVIDER_NAME": "login.nagyistge.testapp",
+  "EXTERNAL_NAME": "My Test Authentication",
   "EMAIL_SOURCE": "email@example.com",
-  "VERIFICATION_PAGE": "http://bucket.s3.amazonaws.com/verify.html",
-  "RESET_PAGE": "http://bucket.s3.amazonaws.com/reset.html"
+  "VERIFICATION_PAGE": "http://nagyistge-authtest.s3.amazonaws.com/verify.html",
+  "RESET_PAGE": "http://nagyistge-authtest.s3.amazonaws.com/reset.html",
+  "IDENTITY_POOL_ID": "eu-west-1:a2fe2055-f8ae-465b-8abd-24ac36139b44"
 }
